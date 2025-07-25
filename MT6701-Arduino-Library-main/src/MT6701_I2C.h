@@ -243,15 +243,15 @@ MT6701I2CPolarityPWM getPolarityPWM(void); // Ottieni il valore della polarità 
     void setOutputModePWM(void); // Imposta la modalità di uscita PWM
     bool setOutputModePWMVerify(void); // Lo stesso, ma con conferma
 
-    // Metodo per leggere lo stato di un singolo registro
+    // Metodo per leggere lo stato di un singolo registro (non presente nella versione originale)
     void printRegisterState(uint8_t registerAddress, uint8_t interestBit);
 
-    // Metodo per leggere lo stato di tutti i registri
+    // Metodo per leggere lo stato di tutti i registri (non presente nella versione originale)
     void printAllRegisterStates();
 
-    // Metodo per leggere i valori di tutti i registri
+    // Metodo per leggere i valori di tutti i registri (non presente nella versione originale)
    void printAllRegisterValue();
 
-    // Metodo per scrivere i tutti i valori di un registro
+    // Metodo per scrivere i tutti i valori di un registro (non presente nella versione originale)
     void MT_WriteOneRegister(uint8_t _reg_addr, uint8_t _payload);
 };
